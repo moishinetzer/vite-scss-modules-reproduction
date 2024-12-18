@@ -1,0 +1,26 @@
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition:
+    color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
+  outline: none;
+  ring: 1px solid #000;
+  pointer-events: none;
+  opacity: 0.5;
+  background-color: red;
+}
+
+button:hover {
+  background-color: peru;
+}
+
+// :global rule for all button variants
+:global(.button) {
+  padding: 100px;
+}
