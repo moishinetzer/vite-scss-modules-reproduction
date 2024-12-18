@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { Button } from '@acme/ui'
 import '@acme/ui/src/button.module.scss'
-// import '@acme/ui/src/test.scss'
 
 function App() {
   const [count, setCount] = useState(0)
